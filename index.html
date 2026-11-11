@@ -8,6 +8,10 @@
 <meta name="description" content="Снизить кадастровую стоимость офиса, склада или торгового помещения под ключ: отчёт оценщика, досудебное обращение и суд — по цене за объект, без доли.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -62,38 +66,68 @@
 </head>
 <body>
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Кадастр фикс</a></div>
-  <nav class="top"><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Кадастр фикс</a>
+  <nav><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Кадастровая стоимость объекта выше рыночной — оспорим под ключ по цене за объект, без доли от экономии</h1>
-    <p class="sub">Для собственников и арендаторов офисов, торговых помещений и складов: проверяем, завышена ли кадастровая стоимость, заказываем отчёт об оценке у оценщика и ведём дело в досудебном порядке и в суде. Цена известна заранее и не зависит от того, сколько налога вы сэкономите.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Мне это нужно</a>
-    <p class="cta-note">Ранний доступ · Оплата на этой странице пока не принимается</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Для собственников и арендаторов офисов</p>
+      <h1 class="rise" style="--i:1" data-len="xlong">Кадастровая стоимость объекта выше рыночной&nbsp;<span class="soft">— оспорим под ключ по цене за объект, без доли от экономии</span></h1>
+      <p class="rise" style="--i:2">Для собственников и арендаторов офисов, торговых помещений и складов: проверяем, завышена ли кадастровая стоимость, заказываем отчёт об оценке у оценщика и ведём дело в досудебном порядке и в суде. Цена известна заранее и не зависит от того, сколько налога вы сэкономите.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Мне это нужно</a>
+      <p class="meta rise" style="--i:4">Ранний доступ · Оплата на этой странице пока не принимается</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="160" font-size="40" fill="#0a1524" font-weight="600">Кадастровая стоимость</text><line x1="80" y1="200" x2="1120" y2="200" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="240" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="272" font-size="30" fill="#0a1524">Проверка объекта</text><rect x="130" y="340" width="44" height="44" fill="#dfe8f7" rx="8" /><rect x="200" y="350" width="260" height="24" fill="#dde2ea" rx="12" /><rect x="130" y="440" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="472" font-size="30" fill="#0a1524">Досудебный порядок</text><rect x="130" y="540" width="44" height="44" fill="#dfe8f7" rx="8" /><rect x="200" y="550" width="320" height="24" fill="#dde2ea" rx="12" /><rect x="680" y="240" width="390" height="420" fill="#dfe8f7" rx="20" /><text x="720" y="310" font-size="32" fill="#0a1524" font-weight="600">Отчёт оценщика</text><rect x="730" y="360" width="250" height="28" fill="#12397a" rx="8" /><rect x="730" y="430" width="180" height="28" fill="#ffffff" rx="8" /><rect x="730" y="500" width="220" height="28" fill="#ffffff" rx="8" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Для</dt><dd>Собственников и арендаторов</dd></div>
+      <div><dt>Что</dt><dd>Отчёт об оценке</dd></div>
+      <div><dt>Как</dt><dd>Сравниваем кадастровую стоимость</dd></div>
+      <div><dt>Доступ</dt><dd>Ранний доступ</dd></div>
+    </dl>
+  </section>
 
   <section id="chto" data-view="features_view">
-    <h2>Что вы получаете</h2>
-    <div class="grid">
-      <div class="card"><b>Проверка объекта</b><span>Сравниваем кадастровую стоимость с рыночной до начала работ.</span><br><a class="btn" href="price.html" data-ev="feature_proverka">Мне это нужно</a></div>
-      <div class="card"><b>Отчёт оценщика</b><span>Отчёт об оценке по ФЗ-135 от оценщика — члена СРО.</span><br><a class="btn" href="price.html" data-ev="feature_otchet">Мне это нужно</a></div>
-      <div class="card"><b>Досудебный порядок</b><span>Готовим и подаём обращение с отчётом об оценке.</span><br><a class="btn" href="price.html" data-ev="feature_dosudebno">Мне это нужно</a></div>
-      <div class="card"><b>Суд при отказе</b><span>Если в досудебном порядке отказали — иск и сопровождение.</span><br><a class="btn" href="price.html" data-ev="feature_sud">Мне это нужно</a></div>
+    <div class="stack"><h2>Что вы получаете</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="34" fill="#0a1524" font-weight="600">Проверка объекта</text><line x1="140" y1="460" x2="680" y2="460" stroke="#dde2ea" stroke-width="4" /><rect x="160" y="280" width="70" height="180" fill="#dfe8f7" rx="8" /><rect x="290" y="340" width="70" height="120" fill="#dfe8f7" rx="8" /><rect x="420" y="240" width="70" height="220" fill="#12397a" rx="8" /><rect x="550" y="370" width="70" height="90" fill="#dfe8f7" rx="8" /></svg></div>
+        <h3>Проверка объекта</h3><p>Сравниваем кадастровую стоимость с рыночной до начала работ.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_proverka">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="34" fill="#0a1524" font-weight="600">Отчёт оценщика</text><rect x="230" y="190" width="340" height="300" fill="#ffffff" rx="12" stroke="#dde2ea" stroke-width="3" /><rect x="270" y="230" width="200" height="20" fill="#dde2ea" rx="8" /><rect x="270" y="270" width="260" height="16" fill="#b9c3d2" rx="8" /><rect x="270" y="306" width="160" height="16" fill="#dde2ea" rx="8" /><rect x="270" y="342" width="220" height="16" fill="#dde2ea" rx="8" /><circle cx="500" cy="420" r="36" fill="#dfe8f7" /><polyline points="482,420 496,436 524,400" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>Отчёт оценщика</h3><p>Отчёт об оценке по ФЗ-135 от оценщика — члена СРО.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_otchet">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="150" width="240" height="300" fill="#ffffff" rx="16" stroke="#dde2ea" stroke-width="3" /><rect x="490" y="150" width="240" height="300" fill="#ffffff" rx="16" stroke="#dde2ea" stroke-width="3" /><rect x="100" y="200" width="140" height="16" fill="#dde2ea" rx="8" /><rect x="100" y="236" width="170" height="16" fill="#b9c3d2" rx="8" /><rect x="100" y="272" width="110" height="16" fill="#dde2ea" rx="8" /><polygon points="330,285 400,285 400,265 450,310 400,355 400,335 330,335" fill="#12397a" /><rect x="520" y="210" width="160" height="18" fill="#12397a" rx="8" /><rect x="520" y="250" width="180" height="16" fill="#dde2ea" rx="8" /><rect x="520" y="286" width="130" height="16" fill="#b9c3d2" rx="8" /><text x="100" y="130" font-size="32" fill="#0a1524" font-weight="600">Досудебный порядок</text></svg></div>
+        <h3>Досудебный порядок</h3><p>Готовим и подаём обращение с отчётом об оценке.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_dosudebno">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="140" font-size="34" fill="#0a1524" font-weight="600">Суд при отказе</text><circle cx="400" cy="340" r="110" fill="#dfe8f7" /><circle cx="400" cy="340" r="78" fill="#ffffff" stroke="#12397a" stroke-width="8" /><polyline points="350,345 385,385 460,300" fill="none" stroke="#12397a" stroke-width="10" /></svg></div>
+        <h3>Суд при отказе</h3><p>Если в досудебном порядке отказали — иск и сопровождение.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_sud">Мне это нужно</a>
+      </article>
     </div>
   </section>
 
-  <section id="primer" data-view="example_view">
-    <h2>Пример (вымышленные данные)</h2>
-    <p class="fine">Компания владеет складом за городом и арендует под офис этаж в бизнес-центре. После новой кадастровой оценки налог на склад вырос заметно сильнее, чем арендные ставки в районе. Проверка показывает, что кадастровая стоимость склада выше рыночной. Оценщик готовит отчёт, обращение подаётся с ним, и дело идёт до решения — по цене, которую назвали в начале.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+  <section id="primer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Пример</h2>
+      <p>Компания владеет складом за городом и арендует под офис этаж в бизнес-центре. После новой кадастровой оценки налог на склад вырос заметно сильнее, чем арендные ставки в районе. Проверка показывает, что кадастровая стоимость склада выше рыночной. Оценщик готовит отчёт, обращение подаётся с ним, и дело идёт до решения — по цене, которую назвали в начале.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Проверка</text><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Оценщик</text><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">обращение</text><rect x="120" y="300" width="960" height="420" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="180" y="390" font-size="36" fill="#0a1524" font-weight="600">до решения</text><rect x="180" y="450" width="64" height="64" fill="#12397a" rx="8" /><rect x="264" y="450" width="64" height="64" fill="#dfe8f7" rx="8" /><rect x="348" y="450" width="64" height="64" fill="#dde2ea" rx="8" /><rect x="432" y="450" width="64" height="64" fill="#dfe8f7" rx="8" /><rect x="180" y="560" width="420" height="24" fill="#dde2ea" rx="12" /><rect x="180" y="610" width="280" height="18" fill="#b9c3d2" rx="8" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Как это работает</h2>
-    <p>Налог на офисы, торговые помещения и склады во многих случаях считается от кадастровой стоимости, а не от цены, по которой объект купили. Кадастровую стоимость определяет массовая оценка, и для конкретного здания или помещения она бывает заметно выше рыночной. Тогда собственник год за годом платит налог с суммы, за которую объект никто не купит. Арендатор, которому этот налог переложен в ставку, платит тоже.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Как это работает</h2></div>
+    <div class="stack">
+      <p>Налог на офисы, торговые помещения и склады во многих случаях считается от кадастровой стоимости, а не от цены, по которой объект купили. Кадастровую стоимость определяет массовая оценка, и для конкретного здания или помещения она бывает заметно выше рыночной. Тогда собственник год за годом платит налог с суммы, за которую объект никто не купит. Арендатор, которому этот налог переложен в ставку, платит тоже.</p>
     <p>Кадастровую стоимость можно оспорить и установить равной рыночной. Для этого нужен отчёт об оценке рыночной стоимости по закону об оценочной деятельности, ФЗ-135. Делать такой отчёт вправе только оценщик — член саморегулируемой организации оценщиков. С отчётом подаётся обращение в досудебном порядке, а при отказе дело решает суд.</p>
     <p>Обычно такую работу предлагают двумя способами: за долю от сэкономленного налога или за фиксированную сумму. Доля удобна, пока экономии нет, но когда стоимость снижена, итоговый платёж может оказаться большим и трудно предсказуемым. Мы работаем по фиксированной цене за объект: сумма известна до начала работ и не меняется от того, насколько снизится стоимость.</p>
     <p>Работа начинается с проверки. Вы присылаете кадастровый номер объекта и коротко рассказываете, что это за объект и как он используется. Мы сравниваем кадастровую стоимость с рыночными данными по похожим объектам и говорим, есть ли смысл её оспаривать. Если разница небольшая и экономия не окупит работу, мы так и скажем.</p>
@@ -103,31 +137,34 @@
     <p>Арендатору оспаривание тоже бывает выгодно, если налог на имущество по договору аренды включён в арендную плату или возмещается собственнику отдельно. В таком случае мы смотрим договор аренды и подсказываем, как договориться с собственником о подаче обращения.</p>
     <p>Сервис рассчитан на компании и предпринимателей в России, которые владеют или долго арендуют коммерческую недвижимость: офисы, торговые помещения, склады, производственные здания. Цена зависит от площади объекта, а не от суммы налога.</p>
     <p>Сервис в подготовке: сначала мы проверяем, нужен ли он собственникам коммерческой недвижимости. Отчёт об оценке делает оценщик, а не сервис, и мы не обещаем заранее, на сколько снизится стоимость: это решают досудебный орган или суд.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Вопросы и ответы</h2>
-    <h3>Кто делает отчёт об оценке?</h3>
-    <p>Оценщик — член саморегулируемой организации оценщиков, по закону об оценочной деятельности ФЗ-135.</p>
-    <h3>Цена зависит от суммы экономии?</h3>
-    <p>Нет. Цена фиксированная за объект и зависит от площади, а не от того, насколько снизится налог.</p>
-    <h3>Что если в досудебном порядке откажут?</h3>
-    <p>Готовим иск и ведём дело в суде; это входит в цену тарифа.</p>
-    <h3>Для каких объектов подходит?</h3>
-    <p>Офисы, торговые помещения, склады и другие объекты коммерческой недвижимости в России.</p>
-    <h3>Можно уже заказать?</h3>
-    <p>Пока нет. Сервис в подготовке, и мы проверяем, нужен ли он собственникам.</p>
+    <div class="stack"><h2>Вопросы и ответы</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Кто делает отчёт об оценке?</h3><p>Оценщик — член саморегулируемой организации оценщиков, по закону об оценочной деятельности ФЗ-135.</p></div>
+      <div class="split flip"><h3>Цена зависит от суммы экономии?</h3><p>Нет. Цена фиксированная за объект и зависит от площади, а не от того, насколько снизится налог.</p></div>
+      <div class="split flip"><h3>Что если в досудебном порядке откажут?</h3><p>Готовим иск и ведём дело в суде; это входит в цену тарифа.</p></div>
+      <div class="split flip"><h3>Для каких объектов подходит?</h3><p>Офисы, торговые помещения, склады и другие объекты коммерческой недвижимости в России.</p></div>
+      <div class="split flip"><h3>Можно уже заказать?</h3><p>Пока нет. Сервис в подготовке, и мы проверяем, нужен ли он собственникам.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Проверьте свой объект</h2>
-    <p><label>Какой у вас объект<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— выберите —</option><option>Офис</option><option>Торговое помещение</option><option>Склад</option><option>Другое здание</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Начать</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Проверьте свой объект</h2>
+    </div>
+    <div class="tile stack">
+      <label>Какой у вас объект<select data-ev-focus="form_start"><option value="">— выберите —</option><option>Офис</option><option>Торговое помещение</option><option>Склад</option><option>Другое здание</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Начать</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Кадастр фикс</b></p>
   <p>Оператор: ИП Гудев Роман, ИНН 615007167949 &middot; <a href="privacy.html" data-ev="click_legal_privacy">Политика обработки персональных данных</a></p>
-  <p class="muted">Отчёт об оценке делает оценщик — член СРО. Снижение стоимости решают досудебный орган или суд; результат заранее не гарантируется.</p>
+  <p>Отчёт об оценке делает оценщик — член СРО. Снижение стоимости решают досудебный орган или суд; результат заранее не гарантируется.</p>
 </div></footer>
 
 </body>
